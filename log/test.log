@@ -1,0 +1,199 @@
+
+
+Started GET "/people" for 127.0.0.1 at 2011-10-22 04:09:49 -0400
+  Processing by PeopleController#index as HTML
+Completed 500 Internal Server Error in 1ms
+  Processing by PagesController#home as HTML
+Completed 200 OK in 47ms (Views: 46.7ms | ActiveRecord: 0.0ms)
+  Processing by PagesController#contact as HTML
+Completed 200 OK in 3ms (Views: 2.1ms | ActiveRecord: 0.0ms)
+  Processing by PeopleController#new as HTML
+Completed 500 Internal Server Error in 1ms
+  Processing by PeopleController#create as HTML
+  Parameters: {"person"=>{}}
+Completed 500 Internal Server Error in 1ms
+  Processing by PeopleController#create as HTML
+  Parameters: {"person"=>{}}
+Completed 500 Internal Server Error in 1ms
+  Processing by PeopleController#create as HTML
+  Parameters: {"person"=>{}}
+Completed 500 Internal Server Error in 1ms
+  Processing by PeopleController#create as HTML
+  Parameters: {"person"=>{}}
+Completed 500 Internal Server Error in 1ms
+  Processing by PagesController#home as HTML
+Rendered pages/home.html.erb within layouts/application (18.5ms)
+Completed 200 OK in 115ms (Views: 114.9ms | ActiveRecord: 0.0ms)
+  Processing by PagesController#contact as HTML
+Completed 200 OK in 3ms (Views: 2.1ms | ActiveRecord: 0.0ms)
+  Processing by PeopleController#new as HTML
+Completed 500 Internal Server Error in 1ms
+  Processing by PeopleController#create as HTML
+  Parameters: {"person"=>{}}
+Completed 500 Internal Server Error in 1ms
+  Processing by PeopleController#create as HTML
+  Parameters: {"person"=>{}}
+Completed 500 Internal Server Error in 1ms
+  Processing by PeopleController#create as HTML
+  Parameters: {"person"=>{}}
+Completed 500 Internal Server Error in 1ms
+  Processing by PeopleController#create as HTML
+  Parameters: {"person"=>{}}
+Completed 500 Internal Server Error in 1ms
+
+
+Started GET "/people" for 127.0.0.1 at 2011-10-22 04:22:27 -0400
+  Processing by PeopleController#index as HTML
+Completed 500 Internal Server Error in 1ms
+  Processing by PagesController#home as HTML
+Completed 200 OK in 87ms (Views: 86.9ms | ActiveRecord: 0.0ms)
+  Processing by PagesController#contact as HTML
+Completed 200 OK in 3ms (Views: 2.2ms | ActiveRecord: 0.0ms)
+  Processing by PeopleController#new as HTML
+Completed 500 Internal Server Error in 1ms
+  Processing by PeopleController#create as HTML
+  Parameters: {"person"=>{}}
+Completed 500 Internal Server Error in 1ms
+  Processing by PeopleController#create as HTML
+  Parameters: {"person"=>{}}
+Completed 500 Internal Server Error in 1ms
+  Processing by PeopleController#create as HTML
+  Parameters: {"person"=>{}}
+Completed 500 Internal Server Error in 1ms
+  Processing by PeopleController#create as HTML
+  Parameters: {"person"=>{}}
+Completed 500 Internal Server Error in 1ms
+
+
+Started GET "/people" for 127.0.0.1 at 2011-10-22 04:26:14 -0400
+  Processing by PeopleController#index as HTML
+Completed 500 Internal Server Error in 1ms
+  Processing by PagesController#home as HTML
+Completed 200 OK in 49ms (Views: 48.3ms | ActiveRecord: 0.0ms)
+  Processing by PagesController#contact as HTML
+Completed 200 OK in 3ms (Views: 2.1ms | ActiveRecord: 0.0ms)
+  Processing by PeopleController#new as HTML
+Completed 500 Internal Server Error in 1ms
+  Processing by PeopleController#create as HTML
+  Parameters: {"person"=>{}}
+Completed 500 Internal Server Error in 42ms
+  Processing by PeopleController#create as HTML
+  Parameters: {"person"=>{}}
+Completed 500 Internal Server Error in 1ms
+  Processing by PeopleController#create as HTML
+  Parameters: {"person"=>{}}
+Completed 500 Internal Server Error in 1ms
+  Processing by PeopleController#create as HTML
+  Parameters: {"person"=>{}}
+Completed 500 Internal Server Error in 1ms
+
+
+Started GET "/people" for 127.0.0.1 at 2011-10-22 04:33:43 -0400
+  Processing by PeopleController#index as HTML
+Completed 500 Internal Server Error in 2ms
+  Processing by PagesController#home as HTML
+Completed 200 OK in 51ms (Views: 50.7ms | ActiveRecord: 0.0ms)
+  Processing by PagesController#contact as HTML
+Completed 200 OK in 3ms (Views: 2.3ms | ActiveRecord: 0.0ms)
+  Processing by PeopleController#new as HTML
+Completed 500 Internal Server Error in 1ms
+  Processing by PeopleController#create as HTML
+  Parameters: {"person"=>{}}
+Completed 500 Internal Server Error in 42ms
+  Processing by PeopleController#create as HTML
+  Parameters: {"person"=>{}}
+Completed 500 Internal Server Error in 1ms
+  Processing by PeopleController#create as HTML
+  Parameters: {"person"=>{}}
+Completed 500 Internal Server Error in 1ms
+  Processing by PeopleController#create as HTML
+  Parameters: {"person"=>{}}
+Completed 500 Internal Server Error in 1ms
+
+
+Started GET "/people" for 127.0.0.1 at 2011-10-22 04:34:00 -0400
+  Processing by PeopleController#index as HTML
+Completed 500 Internal Server Error in 1ms
+  Processing by PagesController#home as HTML
+Completed 200 OK in 49ms (Views: 48.2ms | ActiveRecord: 0.0ms)
+  Processing by PagesController#contact as HTML
+Completed 200 OK in 3ms (Views: 2.2ms | ActiveRecord: 0.0ms)
+  Processing by PeopleController#new as HTML
+Completed 500 Internal Server Error in 1ms
+  Processing by PeopleController#create as HTML
+  Parameters: {"person"=>{}}
+Completed 500 Internal Server Error in 1ms
+  Processing by PeopleController#create as HTML
+  Parameters: {"person"=>{}}
+Completed 500 Internal Server Error in 1ms
+  Processing by PeopleController#create as HTML
+  Parameters: {"person"=>{}}
+Completed 500 Internal Server Error in 42ms
+  Processing by PeopleController#create as HTML
+  Parameters: {"person"=>{}}
+Completed 500 Internal Server Error in 1ms
+
+
+Started GET "/people" for 127.0.0.1 at 2011-10-22 04:37:38 -0400
+  Processing by PeopleController#index as HTML
+Completed 500 Internal Server Error in 1ms
+  Processing by PagesController#home as HTML
+Completed 200 OK in 51ms (Views: 50.2ms | ActiveRecord: 0.0ms)
+  Processing by PagesController#contact as HTML
+Completed 200 OK in 4ms (Views: 3.2ms | ActiveRecord: 0.0ms)
+  Processing by PagesController#about as HTML
+Completed 200 OK in 3ms (Views: 2.7ms | ActiveRecord: 0.0ms)
+  Processing by PeopleController#new as HTML
+Completed 500 Internal Server Error in 1ms
+  Processing by PeopleController#create as HTML
+  Parameters: {"person"=>{}}
+Completed 500 Internal Server Error in 1ms
+  Processing by PeopleController#create as HTML
+  Parameters: {"person"=>{}}
+Completed 500 Internal Server Error in 1ms
+  Processing by PeopleController#create as HTML
+  Parameters: {"person"=>{}}
+Completed 500 Internal Server Error in 1ms
+  Processing by PeopleController#create as HTML
+  Parameters: {"person"=>{}}
+Completed 500 Internal Server Error in 1ms
+
+
+Started GET "/people" for 127.0.0.1 at 2011-10-22 04:49:17 -0400
+  Processing by PeopleController#index as HTML
+Completed 500 Internal Server Error in 1ms
+  Processing by PagesController#home as HTML
+Completed 200 OK in 51ms (Views: 50.4ms | ActiveRecord: 0.0ms)
+  Processing by PagesController#home as HTML
+Completed 200 OK in 2ms (Views: 1.8ms | ActiveRecord: 0.0ms)
+  Processing by PagesController#contact as HTML
+Completed 200 OK in 4ms (Views: 2.9ms | ActiveRecord: 0.0ms)
+  Processing by PagesController#contact as HTML
+Completed 200 OK in 2ms (Views: 2.1ms | ActiveRecord: 0.0ms)
+  Processing by PagesController#about as HTML
+Completed 200 OK in 44ms (Views: 43.6ms | ActiveRecord: 0.0ms)
+  Processing by PagesController#about as HTML
+Completed 200 OK in 2ms (Views: 1.7ms | ActiveRecord: 0.0ms)
+  Processing by PeopleController#new as HTML
+Completed 500 Internal Server Error in 1ms
+  Processing by PeopleController#create as HTML
+  Parameters: {"person"=>{}}
+Completed 500 Internal Server Error in 1ms
+  Processing by PeopleController#create as HTML
+  Parameters: {"person"=>{}}
+Completed 500 Internal Server Error in 1ms
+  Processing by PeopleController#create as HTML
+  Parameters: {"person"=>{}}
+Completed 500 Internal Server Error in 1ms
+  Processing by PeopleController#create as HTML
+  Parameters: {"person"=>{}}
+Completed 500 Internal Server Error in 1ms
+  [1m[36m (0.1ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (62.4ms)[0m  INSERT INTO "users" ("created_at", "email", "name", "updated_at") VALUES (?, ?, ?, ?)  [["created_at", Mon, 24 Oct 2011 20:34:17 UTC +00:00], ["email", "user@example.com"], ["name", "Example User"], ["updated_at", Mon, 24 Oct 2011 20:34:17 UTC +00:00]]
+  [1m[36m (0.1ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  [1m[36m (0.1ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (62.5ms)[0m  INSERT INTO "users" ("created_at", "email", "name", "updated_at") VALUES (?, ?, ?, ?)  [["created_at", Mon, 24 Oct 2011 20:36:03 UTC +00:00], ["email", "user@example.com"], ["name", "Example User"], ["updated_at", Mon, 24 Oct 2011 20:36:03 UTC +00:00]]
+  [1m[36m (0.1ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  [1m[36m (0.1ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (62.7ms)[0m  INSERT INTO "users" ("created_at", "email", "name", "updated_at") VALUES (?, ?, ?, ?)  [["created_at", Mon, 24 Oct 2011 20:36:58 UTC +00:00], ["email", "user@example.com"], ["name", "Example User"], ["updated_at", Mon, 24 Oct 2011 20:36:58 UTC +00:00]]
+  [1m[36m (0.1ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m

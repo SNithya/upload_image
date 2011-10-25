@@ -1,0 +1,27 @@
+
+
+Started GET "/assets/rails.png" for 127.0.0.1 at 2011-10-24 16:58:35 -0400
+
+ActionController::RoutingError (No route matches [GET] "/assets/rails.png"):
+  
+
+Rendered /home/nithya/.rvm/gems/ruby-1.9.2-p290@rails3tutorial/gems/actionpack-3.1.1/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (19.8ms)
+
+
+Started GET "/assets/rails.png" for 127.0.0.1 at 2011-10-24 16:58:39 -0400
+
+ActionController::RoutingError (No route matches [GET] "/assets/rails.png"):
+  
+
+Rendered /home/nithya/.rvm/gems/ruby-1.9.2-p290@rails3tutorial/gems/actionpack-3.1.1/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.9ms)
+
+
+Started GET "/assets/rails.png" for 127.0.0.1 at 2011-10-24 16:58:44 -0400
+
+ActionController::RoutingError (No route matches [GET] "/assets/rails.png"):
+  
+
+Rendered /home/nithya/.rvm/gems/ruby-1.9.2-p290@rails3tutorial/gems/actionpack-3.1.1/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.8ms)
+Migrating to CreatePeople (20111022075648)
+Migrating to CreateUsers (20111024200245)
+Migrating to AddEmailUniquenessIndex (20111024205009)

@@ -1,0 +1,655 @@
+
+
+Started GET "/pages/about" for 127.0.0.1 at 2011-10-22 04:42:13 -0400
+  Processing by PagesController#about as HTML
+Rendered pages/about.html.erb within layouts/application (16.6ms)
+Compiled application.css  (23ms)  (pid 15575)
+Compiled pages.css  (13ms)  (pid 15575)
+Compiled people.css  (1ms)  (pid 15575)
+Compiled scaffolds.css  (14ms)  (pid 15575)
+Compiled application.js  (18ms)  (pid 15575)
+Compiled jquery.js  (2ms)  (pid 15575)
+Compiled jquery_ujs.js  (0ms)  (pid 15575)
+Compiled pages.js  (284ms)  (pid 15575)
+Compiled people.js  (150ms)  (pid 15575)
+Completed 200 OK in 763ms (Views: 762.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2011-10-22 04:42:15 -0400
+Served asset /application.css - 200 OK (0ms)
+
+
+Started GET "/assets/pages.css?body=1" for 127.0.0.1 at 2011-10-22 04:42:15 -0400
+Served asset /pages.css - 304 Not Modified (7ms)
+
+
+Started GET "/assets/people.css?body=1" for 127.0.0.1 at 2011-10-22 04:42:15 -0400
+Served asset /people.css - 200 OK (3ms)
+
+
+Started GET "/assets/people.js?body=1" for 127.0.0.1 at 2011-10-22 04:42:15 -0400
+Served asset /people.js - 200 OK (2ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2011-10-22 04:42:15 -0400
+Served asset /scaffolds.css - 200 OK (8ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2011-10-22 04:42:15 -0400
+Served asset /jquery.js - 304 Not Modified (10ms)
+
+
+Started GET "/assets/pages.js?body=1" for 127.0.0.1 at 2011-10-22 04:42:15 -0400
+Served asset /pages.js - 304 Not Modified (4ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2011-10-22 04:42:15 -0400
+Served asset /jquery_ujs.js - 304 Not Modified (3ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2011-10-22 04:42:15 -0400
+Served asset /application.js - 200 OK (0ms)
+
+
+Started GET "/pages/home" for 127.0.0.1 at 2011-10-22 04:57:07 -0400
+  Processing by PagesController#home as HTML
+Rendered pages/home.html.erb (16.7ms)
+Completed 200 OK in 103ms (Views: 102.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/pages/home" for 127.0.0.1 at 2011-10-24 15:03:55 -0400
+  Processing by PagesController#home as HTML
+Rendered pages/home.html.erb within layouts/application (19.8ms)
+Compiled blueprint/screen.css  (21ms)  (pid 4117)
+Compiled blueprint/print.css  (0ms)  (pid 4117)
+Completed 200 OK in 220ms (Views: 219.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/blueprint/screen.css?body=1" for 127.0.0.1 at 2011-10-24 15:03:57 -0400
+Served asset /blueprint/screen.css - 200 OK (0ms)
+
+
+Started GET "/assets/blueprint/print.css?body=1" for 127.0.0.1 at 2011-10-24 15:03:57 -0400
+Served asset /blueprint/print.css - 200 OK (0ms)
+
+
+Started GET "/pages/home" for 127.0.0.1 at 2011-10-24 15:19:52 -0400
+  Processing by PagesController#home as HTML
+Rendered pages/home.html.erb within layouts/application (20.1ms)
+Compiled blueprint/ie.css  (12ms)  (pid 4563)
+Completed 200 OK in 255ms (Views: 254.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/blueprint/screen.css?body=1" for 127.0.0.1 at 2011-10-24 15:19:54 -0400
+Served asset /blueprint/screen.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/blueprint/print.css?body=1" for 127.0.0.1 at 2011-10-24 15:19:54 -0400
+Served asset /blueprint/print.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/logo.png" for 127.0.0.1 at 2011-10-24 15:19:54 -0400
+Served asset /logo.png - 404 Not Found (7ms)
+
+ActionController::RoutingError (No route matches [GET] "/assets/logo.png"):
+  
+
+Rendered /home/nithya/.rvm/gems/ruby-1.9.2-p290@rails3tutorial/gems/actionpack-3.1.1/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.8ms)
+
+
+Started GET "/assets/custom.css" for 127.0.0.1 at 2011-10-24 15:19:54 -0400
+Served asset /custom.css - 404 Not Found (2ms)
+
+ActionController::RoutingError (No route matches [GET] "/assets/custom.css"):
+  
+
+Rendered /home/nithya/.rvm/gems/ruby-1.9.2-p290@rails3tutorial/gems/actionpack-3.1.1/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.8ms)
+
+
+Started GET "/pages/home" for 127.0.0.1 at 2011-10-24 15:26:10 -0400
+  Processing by PagesController#home as HTML
+Rendered pages/home.html.erb within layouts/application (19.0ms)
+Compiled custom.css  (0ms)  (pid 4813)
+Completed 200 OK in 185ms (Views: 184.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/blueprint/screen.css?body=1" for 127.0.0.1 at 2011-10-24 15:26:12 -0400
+Served asset /blueprint/screen.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/custom.css?body=1" for 127.0.0.1 at 2011-10-24 15:26:12 -0400
+Served asset /custom.css - 200 OK (0ms)
+
+
+Started GET "/assets/logo.png" for 127.0.0.1 at 2011-10-24 15:26:12 -0400
+Served asset /logo.png - 200 OK (5ms)
+
+
+Started GET "/assets/blueprint/print.css?body=1" for 127.0.0.1 at 2011-10-24 15:26:12 -0400
+Served asset /blueprint/print.css - 304 Not Modified (0ms)
+
+
+Started GET "/pages/home" for 127.0.0.1 at 2011-10-24 15:28:25 -0400
+  Processing by PagesController#home as HTML
+Rendered pages/home.html.erb within layouts/application (19.4ms)
+Compiled custom.css  (0ms)  (pid 4952)
+Completed 200 OK in 134ms (Views: 133.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/blueprint/screen.css?body=1" for 127.0.0.1 at 2011-10-24 15:28:27 -0400
+Served asset /blueprint/screen.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/custom.css?body=1" for 127.0.0.1 at 2011-10-24 15:28:27 -0400
+Served asset /custom.css - 200 OK (0ms)
+
+
+Started GET "/assets/blueprint/print.css?body=1" for 127.0.0.1 at 2011-10-24 15:28:27 -0400
+Served asset /blueprint/print.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/logo.png" for 127.0.0.1 at 2011-10-24 15:28:27 -0400
+Served asset /logo.png - 304 Not Modified (2ms)
+
+
+Started GET "/pages/home" for 127.0.0.1 at 2011-10-24 15:29:39 -0400
+  Processing by PagesController#home as HTML
+Rendered pages/home.html.erb within layouts/application (20.1ms)
+Compiled custom.css  (0ms)  (pid 5077)
+Completed 200 OK in 172ms (Views: 171.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/blueprint/screen.css?body=1" for 127.0.0.1 at 2011-10-24 15:29:40 -0400
+Served asset /blueprint/screen.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/logo.png" for 127.0.0.1 at 2011-10-24 15:29:40 -0400
+Served asset /logo.png - 304 Not Modified (2ms)
+
+
+Started GET "/assets/custom.css?body=1" for 127.0.0.1 at 2011-10-24 15:29:40 -0400
+Served asset /custom.css - 200 OK (0ms)
+
+
+Started GET "/assets/blueprint/print.css?body=1" for 127.0.0.1 at 2011-10-24 15:29:40 -0400
+Served asset /blueprint/print.css - 304 Not Modified (0ms)
+
+
+Started GET "/pages/home" for 127.0.0.1 at 2011-10-24 15:31:12 -0400
+  Processing by PagesController#home as HTML
+Rendered pages/home.html.erb within layouts/application (19.6ms)
+Compiled custom.css  (0ms)  (pid 5228)
+Completed 200 OK in 133ms (Views: 132.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/blueprint/screen.css?body=1" for 127.0.0.1 at 2011-10-24 15:31:14 -0400
+Served asset /blueprint/screen.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/custom.css?body=1" for 127.0.0.1 at 2011-10-24 15:31:14 -0400
+Served asset /custom.css - 200 OK (0ms)
+
+
+Started GET "/assets/blueprint/print.css?body=1" for 127.0.0.1 at 2011-10-24 15:31:14 -0400
+Served asset /blueprint/print.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/logo.png" for 127.0.0.1 at 2011-10-24 15:31:14 -0400
+Served asset /logo.png - 304 Not Modified (2ms)
+
+
+Started GET "/pages/home" for 127.0.0.1 at 2011-10-24 15:37:42 -0400
+  Processing by PagesController#home as HTML
+Rendered pages/home.html.erb within layouts/application (20.0ms)
+Compiled custom.css  (0ms)  (pid 5477)
+Rendered layouts/_stylesheets.html.erb (19.7ms)
+Rendered layouts/_header.html.erb (0.9ms)
+Rendered layouts/_footer.html.erb (0.7ms)
+Completed 200 OK in 190ms (Views: 189.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/blueprint/screen.css?body=1" for 127.0.0.1 at 2011-10-24 15:37:44 -0400
+Served asset /blueprint/screen.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/custom.css?body=1" for 127.0.0.1 at 2011-10-24 15:37:44 -0400
+Served asset /custom.css - 200 OK (0ms)
+
+
+Started GET "/assets/logo.png" for 127.0.0.1 at 2011-10-24 15:37:44 -0400
+Served asset /logo.png - 304 Not Modified (2ms)
+
+
+Started GET "/assets/blueprint/print.css?body=1" for 127.0.0.1 at 2011-10-24 15:37:44 -0400
+Served asset /blueprint/print.css - 304 Not Modified (0ms)
+
+
+Started GET "/about" for 127.0.0.1 at 2011-10-24 15:49:28 -0400
+  Processing by PagesController#about as HTML
+Rendered pages/about.html.erb within layouts/application (19.2ms)
+Rendered layouts/_stylesheets.html.erb (15.1ms)
+Rendered layouts/_header.html.erb (2.7ms)
+Rendered layouts/_footer.html.erb (1.6ms)
+Completed 200 OK in 185ms (Views: 184.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/blueprint/screen.css?body=1" for 127.0.0.1 at 2011-10-24 15:49:29 -0400
+Served asset /blueprint/screen.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/logo.png" for 127.0.0.1 at 2011-10-24 15:49:29 -0400
+Served asset /logo.png - 304 Not Modified (2ms)
+
+
+Started GET "/assets/custom.css?body=1" for 127.0.0.1 at 2011-10-24 15:49:29 -0400
+Served asset /custom.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/blueprint/print.css?body=1" for 127.0.0.1 at 2011-10-24 15:49:29 -0400
+Served asset /blueprint/print.css - 304 Not Modified (0ms)
+
+
+Started GET "/signup" for 127.0.0.1 at 2011-10-24 15:55:04 -0400
+  Processing by UsersController#new as HTML
+Rendered users/new.html.erb within layouts/application (53.9ms)
+Rendered layouts/_stylesheets.html.erb (15.4ms)
+Rendered layouts/_header.html.erb (2.7ms)
+Rendered layouts/_footer.html.erb (1.5ms)
+Completed 200 OK in 185ms (Views: 184.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/blueprint/screen.css?body=1" for 127.0.0.1 at 2011-10-24 15:55:05 -0400
+Served asset /blueprint/screen.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/custom.css?body=1" for 127.0.0.1 at 2011-10-24 15:55:05 -0400
+Served asset /custom.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/logo.png" for 127.0.0.1 at 2011-10-24 15:55:05 -0400
+Served asset /logo.png - 304 Not Modified (3ms)
+
+
+Started GET "/assets/blueprint/print.css?body=1" for 127.0.0.1 at 2011-10-24 15:55:05 -0400
+Served asset /blueprint/print.css - 304 Not Modified (0ms)
+  [1m[36m (5.7ms)[0m  [1mselect sqlite_version(*)[0m
+  [1m[35m (10.5ms)[0m  CREATE TABLE "schema_migrations" ("version" varchar(255) NOT NULL) 
+  [1m[36m (0.1ms)[0m  [1mPRAGMA index_list("schema_migrations")[0m
+  [1m[35m (1.9ms)[0m  CREATE UNIQUE INDEX "unique_schema_migrations" ON "schema_migrations" ("version")
+  [1m[36m (0.2ms)[0m  [1mSELECT "schema_migrations"."version" FROM "schema_migrations" [0m
+Migrating to CreatePeople (20111022075648)
+  [1m[35m (0.6ms)[0m  CREATE TABLE "people" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "name" varchar(255), "age" integer, "zipcode" varchar(255), "created_at" datetime, "updated_at" datetime) 
+  [1m[36m (0.2ms)[0m  [1mINSERT INTO "schema_migrations" ("version") VALUES ('20111022075648')[0m
+Migrating to CreateUsers (20111024200245)
+  [1m[35m (0.4ms)[0m  CREATE TABLE "users" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "name" varchar(255), "email" varchar(255), "created_at" datetime, "updated_at" datetime) 
+  [1m[36m (0.2ms)[0m  [1mINSERT INTO "schema_migrations" ("version") VALUES ('20111024200245')[0m
+  [1m[35m (0.3ms)[0m  select sqlite_version(*)
+  [1m[36m (0.1ms)[0m  [1mSELECT "schema_migrations"."version" FROM "schema_migrations" [0m
+  [1m[35m (0.1ms)[0m  PRAGMA index_list("people")
+  [1m[36m (0.1ms)[0m  [1mPRAGMA index_list("users")[0m
+  [1m[36m (0.2ms)[0m  [1mSELECT "schema_migrations"."version" FROM "schema_migrations" [0m
+  [1m[35m (0.2ms)[0m  SELECT "schema_migrations"."version" FROM "schema_migrations" 
+Migrating to CreateUsers (20111024200245)
+  [1m[36m (0.1ms)[0m  [1mselect sqlite_version(*)[0m
+  [1m[35m (0.7ms)[0m  DROP TABLE "users"
+  [1m[36m (0.2ms)[0m  [1mDELETE FROM "schema_migrations" WHERE "schema_migrations"."version" = '20111024200245'[0m
+  [1m[35m (0.5ms)[0m  select sqlite_version(*)
+  [1m[36m (0.2ms)[0m  [1mSELECT "schema_migrations"."version" FROM "schema_migrations" [0m
+  [1m[35m (0.1ms)[0m  PRAGMA index_list("people")
+  [1m[36m (0.2ms)[0m  [1mSELECT "schema_migrations"."version" FROM "schema_migrations" [0m
+Migrating to CreatePeople (20111022075648)
+Migrating to CreateUsers (20111024200245)
+  [1m[35m (0.1ms)[0m  select sqlite_version(*)
+  [1m[36m (0.7ms)[0m  [1mCREATE TABLE "users" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "name" varchar(255), "email" varchar(255), "created_at" datetime, "updated_at" datetime) [0m
+  [1m[35m (0.2ms)[0m  INSERT INTO "schema_migrations" ("version") VALUES ('20111024200245')
+  [1m[36m (0.5ms)[0m  [1mselect sqlite_version(*)[0m
+  [1m[35m (0.3ms)[0m  SELECT "schema_migrations"."version" FROM "schema_migrations" 
+  [1m[36m (0.1ms)[0m  [1mPRAGMA index_list("people")[0m
+  [1m[35m (0.1ms)[0m  PRAGMA index_list("users")
+  [1m[36m (0.2ms)[0m  [1mSELECT "schema_migrations"."version" FROM "schema_migrations" [0m
+  [1m[35m (0.4ms)[0m  select sqlite_version(*)
+  [1m[36m (3.5ms)[0m  [1mCREATE TABLE "people" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "name" varchar(255), "age" integer, "zipcode" varchar(255), "created_at" datetime, "updated_at" datetime) [0m
+  [1m[35m (2.6ms)[0m  CREATE TABLE "users" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "name" varchar(255), "email" varchar(255), "created_at" datetime, "updated_at" datetime) 
+  [1m[36m (1.9ms)[0m  [1mCREATE TABLE "schema_migrations" ("version" varchar(255) NOT NULL) [0m
+  [1m[35m (0.1ms)[0m  PRAGMA index_list("schema_migrations")
+  [1m[36m (1.5ms)[0m  [1mCREATE UNIQUE INDEX "unique_schema_migrations" ON "schema_migrations" ("version")[0m
+  [1m[35m (0.2ms)[0m  SELECT version FROM "schema_migrations"
+  [1m[36m (1.9ms)[0m  [1mINSERT INTO "schema_migrations" (version) VALUES ('20111024200245')[0m
+  [1m[35m (1.4ms)[0m  INSERT INTO "schema_migrations" (version) VALUES ('20111022075648')
+  [1m[36m (0.2ms)[0m  [1mSELECT "schema_migrations"."version" FROM "schema_migrations" [0m
+Migrating to CreatePeople (20111022075648)
+Migrating to CreateUsers (20111024200245)
+Migrating to AddEmailUniquenessIndex (20111024205009)
+  [1m[35m (0.1ms)[0m  select sqlite_version(*)
+  [1m[36m (0.1ms)[0m  [1mPRAGMA index_list("users")[0m
+  [1m[35m (0.5ms)[0m  CREATE UNIQUE INDEX "index_users_on_email" ON "users" ("email")
+  [1m[36m (0.2ms)[0m  [1mINSERT INTO "schema_migrations" ("version") VALUES ('20111024205009')[0m
+  [1m[35m (0.4ms)[0m  select sqlite_version(*)
+  [1m[36m (0.1ms)[0m  [1mSELECT "schema_migrations"."version" FROM "schema_migrations" [0m
+  [1m[35m (0.1ms)[0m  PRAGMA index_list("people")
+  [1m[36m (0.1ms)[0m  [1mPRAGMA index_list("users")[0m
+  [1m[35m (0.1ms)[0m  PRAGMA index_info('index_users_on_email')
+
+
+Started GET "/assets/rails.png" for 127.0.0.1 at 2011-10-24 16:52:29 -0400
+Served asset /rails.png - 304 Not Modified (7ms)
+
+
+Started GET "/assets/rails.png" for 127.0.0.1 at 2011-10-24 16:52:34 -0400
+Served asset /rails.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/rails.png" for 127.0.0.1 at 2011-10-24 16:52:38 -0400
+Served asset /rails.png - 304 Not Modified (0ms)
+
+
+Started GET "/users/1" for 127.0.0.1 at 2011-10-24 17:03:36 -0400
+
+ActionController::RoutingError (No route matches [GET] "/users/1"):
+  
+
+Rendered /home/nithya/.rvm/gems/ruby-1.9.2-p290@rails3tutorial/gems/actionpack-3.1.1/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (19.4ms)
+
+
+Started GET "/users/1" for 127.0.0.1 at 2011-10-24 17:05:04 -0400
+  Processing by UsersController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mUser Load (0.3ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", "1"]]
+Rendered users/show.html.erb within layouts/application (62.6ms)
+Rendered layouts/_stylesheets.html.erb (111.4ms)
+Rendered layouts/_header.html.erb (2.3ms)
+Rendered layouts/_footer.html.erb (2.2ms)
+Completed 200 OK in 265ms (Views: 260.5ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/assets/blueprint/screen.css?body=1" for 127.0.0.1 at 2011-10-24 17:05:06 -0400
+Served asset /blueprint/screen.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/custom.css?body=1" for 127.0.0.1 at 2011-10-24 17:05:06 -0400
+Served asset /custom.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/blueprint/print.css?body=1" for 127.0.0.1 at 2011-10-24 17:05:06 -0400
+Served asset /blueprint/print.css - 304 Not Modified (0ms)
+
+
+Started GET "/users/2" for 127.0.0.1 at 2011-10-24 17:05:17 -0400
+  Processing by UsersController#show as HTML
+  Parameters: {"id"=>"2"}
+  [1m[35mUser Load (0.2ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", "2"]]
+Rendered users/show.html.erb within layouts/application (6.3ms)
+Rendered layouts/_stylesheets.html.erb (2.9ms)
+Rendered layouts/_header.html.erb (1.7ms)
+Rendered layouts/_footer.html.erb (1.0ms)
+Completed 200 OK in 25ms (Views: 21.8ms | ActiveRecord: 0.7ms)
+
+
+Started GET "/assets/blueprint/screen.css?body=1" for 127.0.0.1 at 2011-10-24 17:05:17 -0400
+Served asset /blueprint/screen.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/custom.css?body=1" for 127.0.0.1 at 2011-10-24 17:05:17 -0400
+Served asset /custom.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/blueprint/print.css?body=1" for 127.0.0.1 at 2011-10-24 17:05:17 -0400
+Served asset /blueprint/print.css - 304 Not Modified (0ms)
+
+
+Started GET "/users/1" for 127.0.0.1 at 2011-10-24 17:05:24 -0400
+  Processing by UsersController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", "1"]]
+Rendered users/show.html.erb within layouts/application (5.9ms)
+Rendered layouts/_stylesheets.html.erb (3.0ms)
+Rendered layouts/_header.html.erb (1.6ms)
+Rendered layouts/_footer.html.erb (1.0ms)
+Completed 200 OK in 26ms (Views: 22.7ms | ActiveRecord: 0.7ms)
+
+
+Started GET "/assets/blueprint/screen.css?body=1" for 127.0.0.1 at 2011-10-24 17:05:25 -0400
+Served asset /blueprint/screen.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/blueprint/print.css?body=1" for 127.0.0.1 at 2011-10-24 17:05:25 -0400
+Served asset /blueprint/print.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/custom.css?body=1" for 127.0.0.1 at 2011-10-24 17:05:25 -0400
+Served asset /custom.css - 304 Not Modified (0ms)
+
+
+Started GET "/users/2" for 127.0.0.1 at 2011-10-24 17:05:44 -0400
+  Processing by UsersController#show as HTML
+  Parameters: {"id"=>"2"}
+  [1m[35mUser Load (0.2ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", "2"]]
+Rendered users/show.html.erb within layouts/application (6.0ms)
+Rendered layouts/_stylesheets.html.erb (3.2ms)
+Rendered layouts/_header.html.erb (1.7ms)
+Rendered layouts/_footer.html.erb (1.0ms)
+Completed 200 OK in 25ms (Views: 22.2ms | ActiveRecord: 0.7ms)
+
+
+Started GET "/assets/blueprint/screen.css?body=1" for 127.0.0.1 at 2011-10-24 17:05:44 -0400
+Served asset /blueprint/screen.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/blueprint/print.css?body=1" for 127.0.0.1 at 2011-10-24 17:05:44 -0400
+Served asset /blueprint/print.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/custom.css?body=1" for 127.0.0.1 at 2011-10-24 17:05:44 -0400
+Served asset /custom.css - 304 Not Modified (0ms)
+
+
+Started GET "/users/1" for 127.0.0.1 at 2011-10-24 17:06:41 -0400
+  Processing by UsersController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mUser Load (0.3ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", "1"]]
+Rendered users/show.html.erb within layouts/application (6.3ms)
+Rendered layouts/_stylesheets.html.erb (2.5ms)
+Rendered layouts/_header.html.erb (1.6ms)
+Rendered layouts/_footer.html.erb (1.3ms)
+Completed 200 OK in 26ms (Views: 22.2ms | ActiveRecord: 0.9ms)
+
+
+Started GET "/assets/blueprint/screen.css?body=1" for 127.0.0.1 at 2011-10-24 17:06:41 -0400
+Served asset /blueprint/screen.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/blueprint/print.css?body=1" for 127.0.0.1 at 2011-10-24 17:06:41 -0400
+Served asset /blueprint/print.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/custom.css?body=1" for 127.0.0.1 at 2011-10-24 17:06:41 -0400
+Served asset /custom.css - 304 Not Modified (0ms)
+  [1m[36m (0.2ms)[0m  [1mSELECT "schema_migrations"."version" FROM "schema_migrations" [0m
+Migrating to CreatePeople (20111022075648)
+Migrating to CreateUsers (20111024200245)
+Migrating to AddEmailUniquenessIndex (20111024205009)
+Migrating to AddPasswordToUsers (20111024211222)
+  [1m[35m (0.1ms)[0m  select sqlite_version(*)
+  [1m[36m (1.1ms)[0m  [1mALTER TABLE "users" ADD "encrypted_password" varchar(255)[0m
+  [1m[35m (0.3ms)[0m  INSERT INTO "schema_migrations" ("version") VALUES ('20111024211222')
+  [1m[36m (0.5ms)[0m  [1mselect sqlite_version(*)[0m
+  [1m[35m (0.2ms)[0m  SELECT "schema_migrations"."version" FROM "schema_migrations" 
+  [1m[36m (0.1ms)[0m  [1mPRAGMA index_list("people")[0m
+  [1m[35m (0.1ms)[0m  PRAGMA index_list("users")
+  [1m[36m (0.1ms)[0m  [1mPRAGMA index_info('index_users_on_email')[0m
+  [1m[36m (0.2ms)[0m  [1mSELECT "schema_migrations"."version" FROM "schema_migrations" [0m
+  [1m[35m (0.3ms)[0m  select sqlite_version(*)
+  [1m[36m (3.2ms)[0m  [1mCREATE TABLE "people" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "name" varchar(255), "age" integer, "zipcode" varchar(255), "created_at" datetime, "updated_at" datetime) [0m
+  [1m[35m (1.5ms)[0m  CREATE TABLE "users" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "name" varchar(255), "email" varchar(255), "created_at" datetime, "updated_at" datetime, "encrypted_password" varchar(255)) 
+  [1m[36m (0.1ms)[0m  [1mPRAGMA index_list("users")[0m
+  [1m[35m (2.2ms)[0m  CREATE UNIQUE INDEX "index_users_on_email" ON "users" ("email")
+  [1m[36m (1.7ms)[0m  [1mCREATE TABLE "schema_migrations" ("version" varchar(255) NOT NULL) [0m
+  [1m[35m (0.1ms)[0m  PRAGMA index_list("schema_migrations")
+  [1m[36m (1.8ms)[0m  [1mCREATE UNIQUE INDEX "unique_schema_migrations" ON "schema_migrations" ("version")[0m
+  [1m[35m (0.1ms)[0m  SELECT version FROM "schema_migrations"
+  [1m[36m (1.5ms)[0m  [1mINSERT INTO "schema_migrations" (version) VALUES ('20111024211222')[0m
+  [1m[35m (3.1ms)[0m  INSERT INTO "schema_migrations" (version) VALUES ('20111024200245')
+  [1m[36m (2.2ms)[0m  [1mINSERT INTO "schema_migrations" (version) VALUES ('20111022075648')[0m
+  [1m[35m (1.9ms)[0m  INSERT INTO "schema_migrations" (version) VALUES ('20111024205009')
+  [1m[36m (0.2ms)[0m  [1mSELECT "schema_migrations"."version" FROM "schema_migrations" [0m
+Migrating to CreatePeople (20111022075648)
+Migrating to CreateUsers (20111024200245)
+Migrating to AddEmailUniquenessIndex (20111024205009)
+  [1m[35m (0.3ms)[0m  select sqlite_version(*)
+  [1m[36m (0.1ms)[0m  [1mSELECT "schema_migrations"."version" FROM "schema_migrations" [0m
+  [1m[35m (0.1ms)[0m  PRAGMA index_list("people")
+  [1m[36m (0.1ms)[0m  [1mPRAGMA index_list("users")[0m
+  [1m[35m (0.1ms)[0m  PRAGMA index_info('index_users_on_email')
+
+
+Started GET "/assets/rails.png" for 127.0.0.1 at 2011-10-24 17:41:32 -0400
+Served asset /rails.png - 200 OK (3ms)
+
+
+Started GET "/users/1" for 127.0.0.1 at 2011-10-24 17:43:21 -0400
+  Processing by UsersController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mUser Load (0.3ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", "1"]]
+Rendered users/show.html.erb within layouts/application (63.9ms)
+Rendered layouts/_stylesheets.html.erb (15.4ms)
+Rendered layouts/_header.html.erb (2.2ms)
+Rendered layouts/_footer.html.erb (1.6ms)
+Completed 200 OK in 169ms (Views: 163.9ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/assets/blueprint/screen.css?body=1" for 127.0.0.1 at 2011-10-24 17:43:22 -0400
+Served asset /blueprint/screen.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/custom.css?body=1" for 127.0.0.1 at 2011-10-24 17:43:22 -0400
+Served asset /custom.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/blueprint/print.css?body=1" for 127.0.0.1 at 2011-10-24 17:43:22 -0400
+Served asset /blueprint/print.css - 304 Not Modified (0ms)
+
+
+Started GET "/users/" for 127.0.0.1 at 2011-10-24 17:44:34 -0400
+
+AbstractController::ActionNotFound (The action 'index' could not be found for UsersController):
+  
+
+Rendered /home/nithya/.rvm/gems/ruby-1.9.2-p290@rails3tutorial/gems/actionpack-3.1.1/lib/action_dispatch/middleware/templates/rescues/unknown_action.erb within rescues/layout (0.7ms)
+
+
+Started GET "/pages/home" for 127.0.0.1 at 2011-10-24 17:47:07 -0400
+  Processing by PagesController#home as HTML
+Rendered pages/home.html.erb within layouts/application (19.6ms)
+Completed 200 OK in 131ms (Views: 130.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/blueprint/screen.css?body=1" for 127.0.0.1 at 2011-10-24 17:47:09 -0400
+Served asset /blueprint/screen.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/blueprint/print.css?body=1" for 127.0.0.1 at 2011-10-24 17:47:09 -0400
+Served asset /blueprint/print.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/custom.css?body=1" for 127.0.0.1 at 2011-10-24 17:47:09 -0400
+Served asset /custom.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/logo.png" for 127.0.0.1 at 2011-10-24 17:47:09 -0400
+Served asset /logo.png - 304 Not Modified (22ms)
+
+
+Started GET "/pages/home" for 127.0.0.1 at 2011-10-24 17:50:18 -0400
+  Processing by PagesController#home as HTML
+Rendered pages/home.html.erb within layouts/application (19.6ms)
+Rendered layouts/_stylesheets.html.erb (15.1ms)
+Rendered layouts/_header.html.erb (38.0ms)
+Rendered layouts/_footer.html.erb (1.6ms)
+Completed 200 OK in 185ms (Views: 184.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/blueprint/screen.css?body=1" for 127.0.0.1 at 2011-10-24 17:50:19 -0400
+Served asset /blueprint/screen.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/blueprint/print.css?body=1" for 127.0.0.1 at 2011-10-24 17:50:19 -0400
+Served asset /blueprint/print.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/custom.css?body=1" for 127.0.0.1 at 2011-10-24 17:50:19 -0400
+Served asset /custom.css - 304 Not Modified (0ms)
+
+
+Started GET "/about" for 127.0.0.1 at 2011-10-24 17:54:20 -0400
+  Processing by PagesController#about as HTML
+Rendered pages/about.html.erb within layouts/application (19.0ms)
+Rendered layouts/_stylesheets.html.erb (15.5ms)
+Rendered layouts/_header.html.erb (38.2ms)
+Rendered layouts/_footer.html.erb (1.7ms)
+Completed 200 OK in 187ms (Views: 186.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/blueprint/screen.css?body=1" for 127.0.0.1 at 2011-10-24 17:54:22 -0400
+Served asset /blueprint/screen.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/blueprint/print.css?body=1" for 127.0.0.1 at 2011-10-24 17:54:22 -0400
+Served asset /blueprint/print.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/custom.css?body=1" for 127.0.0.1 at 2011-10-24 17:54:22 -0400
+Served asset /custom.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/logo.png" for 127.0.0.1 at 2011-10-24 17:54:22 -0400
+Served asset /logo.png - 304 Not Modified (2ms)
+
+
+Started GET "/about" for 127.0.0.1 at 2011-10-24 18:10:52 -0400
+  Processing by PagesController#about as HTML
+Rendered pages/about.html.erb within layouts/application (0.1ms)
+Rendered layouts/_stylesheets.html.erb (2.4ms)
+Rendered layouts/_header.html.erb (2.0ms)
+Rendered layouts/_footer.html.erb (1.0ms)
+Completed 200 OK in 16ms (Views: 15.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/blueprint/screen.css?body=1" for 127.0.0.1 at 2011-10-24 18:10:52 -0400
+Served asset /blueprint/screen.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/blueprint/print.css?body=1" for 127.0.0.1 at 2011-10-24 18:10:52 -0400
+Served asset /blueprint/print.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/logo.png" for 127.0.0.1 at 2011-10-24 18:10:52 -0400
+Served asset /logo.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/custom.css?body=1" for 127.0.0.1 at 2011-10-24 18:10:52 -0400
+Served asset /custom.css - 304 Not Modified (0ms)
+
+
+Started GET "/contact" for 127.0.0.1 at 2011-10-24 18:10:54 -0400
+  Processing by PagesController#contact as HTML
+Rendered pages/contact.html.erb within layouts/application (0.5ms)
+Rendered layouts/_stylesheets.html.erb (3.2ms)
+Rendered layouts/_header.html.erb (2.1ms)
+Rendered layouts/_footer.html.erb (1.0ms)
+Completed 200 OK in 17ms (Views: 16.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/blueprint/screen.css?body=1" for 127.0.0.1 at 2011-10-24 18:10:55 -0400
+Served asset /blueprint/screen.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/blueprint/print.css?body=1" for 127.0.0.1 at 2011-10-24 18:10:55 -0400
+Served asset /blueprint/print.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/custom.css?body=1" for 127.0.0.1 at 2011-10-24 18:10:55 -0400
+Served asset /custom.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/logo.png" for 127.0.0.1 at 2011-10-24 18:10:55 -0400
+Served asset /logo.png - 304 Not Modified (0ms)
